@@ -27,7 +27,7 @@
     </script>
     <!-- shared style  -->
     <style>
-        .lato{
+        .lato {
             font-family: 'Lato', sans-serif;
         }
     </style>
@@ -147,10 +147,266 @@
                     </div>
                 </div>
             </div>
+            <div
+                class="lg:flex hidden lg:justify-around items-center bg-white px-5 py-3 rounded-lg w-4/5 m-auto relative -top-16">
+                <div>
+                    <img class="w-4/5" src="./images/fruit1.png" alt="">
+                    <p class="text-center">Strawberry</p>
+                </div>
+                <div>
+                    <img class="w-4/5" src="./images/fruit2.png" alt="">
+                    <p class="text-center">Orange</p>
+                </div>
+                <div>
+                    <img class="w-4/5" src="./images/fruit3.png" alt="">
+                    <p class="text-center">Mango</p>
+                </div>
+                <div>
+                    <img class="w-4/5" src="./images/fruit4.png" alt="">
+                    <p class="text-center">Strawberry</p>
+                </div>
+                <div>
+                    <img class="w-4/5" src="./images/fruit5.png" alt="">
+                    <p>Mango</p>
+                </div>
+            </div>
         </div>
     </header>
     <main>
-
+        <!-- secton 1  -->
+        <section class="lg:container lg:mx-auto w-11/12 m-auto mt-10">
+            <div class="flex lg:flex-row gap-5 justify-between flex-col">
+                <div class="">
+                    <h2 class="text-2xl font-bold">Deal of the day</h2>
+                    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical
+                        <br>Latin
+                        literature from 45 BC, making it over 2000 years old.
+                    </p>
+                </div>
+                <div class="">
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:15;"></span>
+                            </span>
+                            days
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:10;"></span>
+                            </span>
+                            hours
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:24;"></span>
+                            </span>
+                            min
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:19;"></span>
+                            </span>
+                            sec
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 2  -->
+        <section class="lg:container lg:mx-auto w-11/12 m-auto mt-10">
+            <div class="grid lg:grid-cols-4 gap-4 md:grid-cols-2 grid-cols-1">
+                <!-- card 1  -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="./images/fruit6.png" alt=""></figure>
+                    <div class="card-body">
+                        <div class="text-center space-y-2">
+                            <h2>12.90$ - 18.85$</h2>
+                            <p>Apples</p>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <div class="drawer drawer-end">
+                                <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+                                <div class="drawer-content">
+                                    <!-- Page content here -->
+                                    <label for="my-drawer-4" class="drawer-button text-orange-400">Deails</label>
+                                </div>
+                                <div class="drawer-side">
+                                    <label for="my-drawer-4" class="drawer-overlay"></label>
+                                    <div class="card-body p-4 w-80 h-80 bg-base-200 text-base-content rounded-lg">
+                                        <figure><img src="./images/fruit1.png" alt=""></figure>
+                                        <div class="text-center space-y-2">
+                                            <h2 class="text-3xl">Red Dragon</h2>
+                                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                            <div class="rating">
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                                    checked />
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                            </div><br>
+                                            <button class="btn border-2 border-orange-400">Close</button><button class="btn bg-buton ml-2">Buy now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2  -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="./images/fruit7.png" alt=""></figure>
+                    <div class="card-body">
+                        <div class="text-center space-y-2">
+                            <h2>12.90$ - 18.85$</h2>
+                            <p>Apples</p>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <div class="drawer drawer-end">
+                                <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+                                <div class="drawer-content">
+                                    <!-- Page content here -->
+                                    <label for="my-drawer-4" class="drawer-button text-orange-400">Deails</label>
+                                </div>
+                                <div class="drawer-side">
+                                    <label for="my-drawer-4" class="drawer-overlay"></label>
+                                    <div class="card-body p-4 w-80 h-80 bg-base-200 text-base-content rounded-lg">
+                                        <figure><img src="./images/fruit2.png" alt=""></figure>
+                                        <div class="text-center space-y-2">
+                                            <h2 class="text-3xl">Red Dragon</h2>
+                                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                            <div class="rating">
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                                    checked />
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                            </div><br>
+                                            <button class="btn border-2 border-orange-400">Close</button>
+                                            <button class="btn bg-buton ml-2">Buy now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="./images/fruit8.png" alt=""></figure>
+                    <div class="card-body">
+                        <div class="text-center space-y-2">
+                            <h2>12.90$ - 18.85$</h2>
+                            <p>Apples</p>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <div class="drawer drawer-end">
+                                <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+                                <div class="drawer-content">
+                                    <!-- Page content here -->
+                                    <label for="my-drawer-4" class="drawer-button text-orange-400">Deails</label>
+                                </div>
+                                <div class="drawer-side">
+                                    <label for="my-drawer-4" class="drawer-overlay"></label>
+                                    <div class="card-body p-4 w-80 h-80 bg-base-200 text-base-content rounded-lg">
+                                        <figure><img src="./images/fruit1.png" alt=""></figure>
+                                        <div class="text-center space-y-2">
+                                            <h2 class="text-3xl">Red Dragon</h2>
+                                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                            <div class="rating">
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                                    checked />
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                            </div><br>
+                                            <button class="btn border-2 border-orange-400">Close</button><button class="btn bg-buton ml-2">Buy now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="./images/fruit9.png" alt=""></figure>
+                    <div class="card-body">
+                        <div class="text-center space-y-2">
+                            <h2>12.90$ - 18.85$</h2>
+                            <p>Apples</p>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <div class="drawer drawer-end">
+                                <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+                                <div class="drawer-content">
+                                    <!-- Page content here -->
+                                    <label for="my-drawer-4" class="drawer-button text-orange-400">Deails</label>
+                                </div>
+                                <div class="drawer-side">
+                                    <label for="my-drawer-4" class="drawer-overlay"></label>
+                                    <div class="card-body p-4 w-80 h-80 bg-base-200 text-base-content rounded-lg">
+                                        <figure><img src="./images/fruit2.png" alt=""></figure>
+                                        <div class="text-center space-y-2">
+                                            <h2 class="text-3xl">Red Dragon</h2>
+                                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                            <div class="rating">
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                                    checked />
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                                <input type="radio" name="rating-2"
+                                                    class="mask mask-star-2 bg-orange-400" />
+                                            </div><br>
+                                            <button class="btn border-2 border-orange-400">Close</button><button class="btn bg-buton ml-2">Buy now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </section>
     </main>
     <footer>
 
